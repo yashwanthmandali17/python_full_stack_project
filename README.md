@@ -1,16 +1,16 @@
 <!-- # EV charging slot booking -->
 A web or desktop application that allows users to book time slots for a single electric vehicle (EV) charging point. Users can check available slots, make bookings, and cancel if needed. Admin manages availability.
 ## Features
--User Features
--Check availability → Calendar or list view of open slots.
--Book a slot → Select date and time, confirm booking.
--Cancel/Reschedule booking → Change slot if needed.
--Booking history → View past and upcoming bookings.
--Admin Features
--Manage slots → Add, edit, or remove available time slots.
--Monitor bookings → View all upcoming bookings and user info.
--Mark unavailable slots → Temporarily block slots (e.g., maintenance).
--Generate reports → Total bookings per day/week, popular hours.
+## User Features
+- **Check availability** → Calendar or list view of open slots.
+- **Book a slot** → Select date and time, confirm booking.
+- **Cancel/Reschedule booking** → Change slot if needed.
+- **Booking history** → View past and upcoming bookings.
+## Admin Features
+- **Manage slots** → Add, edit, or remove available time slots.
+- **Monitor bookings** → View all upcoming bookings and user info.
+- **Mark unavailable slots** → Temporarily block slots (e.g., maintenance).
+- **Generate reports** → Total bookings per day/week, popular hours.
 
 ## Project Structure
 ```
@@ -96,7 +96,7 @@ The api will be available at ``
 - **Frontend**:Streamlit (Python web framework)
 - **Backend**:FastAPI (Python Rest API framework)
 - **Database**:Supabase (PostgreSQL-based backend-as-a-server)
--**Languages**:Python 3.8+
+- **Languages**:Python 3.8+
 
 ### Key Components
 1. **`src/db.py`**:Database operations
