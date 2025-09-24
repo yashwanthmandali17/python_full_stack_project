@@ -1,4 +1,4 @@
-<!-- # EV charging slot booking -->
+## EV charging slot booking
 A web or desktop application that allows users to book time slots for a single electric vehicle (EV) charging point. Users can check available slots, make bookings, and cancel if needed. Admin manages availability.
 ## Features
 ## User Features
@@ -78,13 +78,13 @@ SUPABASE_KEY=""
 ## Streamlit Frontend
 streamlit run frontend/app.py
 
-The app will open in the browser at ``
+The app will open in the browser at `http://localhost:8080`
 
 ## FastAPI Backend
 cd api
 python main.py
 
-The api will be available at ``
+The api will be available at `http://localhost:8085`
 
 ## How to use
 
