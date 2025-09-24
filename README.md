@@ -13,7 +13,8 @@ Mark unavailable slots → Temporarily block slots (e.g., maintenance).
 Generate reports → Total bookings per day/week, popular hours.
 
 ## Project Structure
-```EV charging slot booking/
+```
+EV charging slot booking/
 |
 |----src/           # core application logic
 |   |----logic.py   # business logic and task operations
