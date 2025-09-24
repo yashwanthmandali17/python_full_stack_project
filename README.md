@@ -1,4 +1,4 @@
-<!-- # EV charging slot booking -->
+## EV charging slot booking
 A web or desktop application that allows users to book time slots for a single electric vehicle (EV) charging point. Users can check available slots, make bookings, and cancel if needed. Admin manages availability.
 ## Features
 User Features
