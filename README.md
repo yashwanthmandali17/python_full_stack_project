@@ -5,12 +5,10 @@ A web or desktop application that allows users to book time slots for a single e
 - **Check availability** → Calendar or list view of open slots.
 - **Book a slot** → Select date and time, confirm booking.
 - **Cancel/Reschedule booking** → Change slot if needed.
-- **Booking history** → View past and upcoming bookings.
 ## Admin Features
 - **Manage slots** → Add, edit, or remove available time slots.
 - **Monitor bookings** → View all upcoming bookings and user info.
 - **Mark unavailable slots** → Temporarily block slots (e.g., maintenance).
-- **Generate reports** → Total bookings per day/week, popular hours.
 
 ## Project Structure
 ```
@@ -110,10 +108,11 @@ The api will be available at `http://localhost:8085`
 ## Common Issues
 
 ## Future Enhancements
--Notifications – Email or SMS reminders for upcoming bookings.
--Booking History – Users can see past and future bookings.
--Admin Dashboard – Manage slots and monitor all bookings.
--Responsive UI – Mobile-friendly interface with calendar or slot list.
+- **Notifications** – Email or SMS reminders for upcoming bookings.
+- **Booking History** – Users can see past and future bookings.
+- **Admin Dashboard** – Manage slots and monitor all bookings.
+- **Responsive UI** – Mobile-friendly interface with calendar or slot list.
+- **Generate reports** - Total bookings per day/week, popular hours.
 
 ## Support
 if you encounter any issues or have questions:
