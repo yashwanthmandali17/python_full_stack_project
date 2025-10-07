@@ -542,7 +542,6 @@ def main():
         st.write("4. Then refresh this page")
         return
     
-    # Show appropriate page based on login status
     if not st.session_state.logged_in:
         login_page()
     else:
